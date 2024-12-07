@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get Started</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <form action="index.html">
+    <h2>LogIn / SignUp</h2>
+    <div class="changer">
+      <button type="button" class="toggle-button" onclick="toggleForm('login')">LogIn</button>
+      <button type="button" class="toggle-button" onclick="toggleForm('signup')">SignUp</button>
+    </div>
+    <div id="loginForm" class="form-section">
+      <h3>LogIn</h3>
+      <div class="input-group">
+        <input type="email" placeholder="abc@gmail.com" class="hold" required>
+        <label class="font">
+          <i class="fa-regular fa-envelope"></i>
+        </label>
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" class="hold" required>
+        <label class="font">
+          <i class="fa-solid fa-lock"></i>
+        </label>
+      </div>
+      <div class="forgot">
+        <a href="#">Forgot your Password?</a>
+      </div>
+    </div>
+    <div id="signupForm" class="form-section hidden">
+      <h3>SignUp</h3>
+      <div class="input-group">
+        <input type="text" placeholder="Full Name" class="hold" required>
+        <label class="font">
+          <i class="fa-solid fa-user"></i>
+        </label>
+      </div>
+      <div class="input-group">
+        <input type="number" placeholder="Phone Number" class="hold" required>
+        <label class="font">
+          <i class="fa-solid fa-phone"></i>
+        </label>
+      </div>
+      <div class="input-group">
+        <input type="email" placeholder="abc@gmail.com" class="hold" required>
+        <label class="font">
+          <i class="fa-regular fa-envelope"></i>
+        </label>
+      </div>
+      <div class="input-group">
+        <input type="password" placeholder="Password" class="hold" required>
+        <label class="font">
+          <i class="fa-solid fa-lock"></i>
+        </label>
+      </div>
+    </div>
+  </form>
+  <script src="login.js"></script>
+</body>
+</html>

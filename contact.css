@@ -1,0 +1,40 @@
+*{
+    /* background-color: rgb(131, 152, 171); */
+    margin: 0;
+    margin-top: 10px;
+}
+
+.bod{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(1, 28, 54);
+    margin: 0px;
+}
+
+h3, .contact, .email{
+    font-family: "Chakra Petch", serif;
+    color: white;
+    
+}
+.box{
+    margin-top: -200px;
+    margin-left: 40px;
+    font-size: larger;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.email{
+    margin-top: 40px;
+}
+.contact{
+    margin-top: 30px;
+}
+
+h3{
+    color: rgb(159, 159, 159);
+    font-family: "Barlow Condensed", serif;
+    font-weight: 600;
+}

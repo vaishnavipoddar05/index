@@ -1,0 +1,123 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    /* background-color: #1565C0 ; */
+    background-image: url(blueee.jpg);
+}
+
+/* Search Bar Container */
+.search-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Spacing between the icon and textarea */
+}
+
+/* Search Icon */
+.search-container .fa-magnifying-glass {
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 25%;
+    margin-top:50px ;
+}
+
+/* Search Input */
+.search {
+    width: 700px;
+    height: 20px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px; /* Rounded corners for the search bar */
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    resize: none; /* Disable resizing */
+    margin-top:50px ;
+    
+}
+
+/* Placeholder Style */
+.search::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Focus Effect */
+.search:focus {
+    border-color: #007bff; /* Optional focus effect */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.explore {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-left: 20px;
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add space between items */
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 270px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    height: 250px; /* Ensure uniform height */
+    color: #0D47A1;
+    background-color: #E3F2FD ;
+    font-family: "Parkinsans", serif;
+    font-size: 16px;
+  }
+
+.line {
+    margin: 10px 0;
+    flex-grow: 1;
+    font-family: "Chakra Petch", sans-serif;
+    /* font-size: 16px; */
+  }
+
+.card button {
+    margin-top: auto;
+    padding: 10px 15px;
+    background-color: #023d87;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.card button a {
+    text-decoration: none;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+  }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+i{
+    color: #f36337;
+    margin-left: 10px;
+}
+
+.fa-arrow-right{
+    color: white;
+}
+

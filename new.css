@@ -1,0 +1,128 @@
+/* Overall Body Styling */
+body {
+    background: linear-gradient(120deg, #74ebd5, #9face6);
+    font-family: "Parkinsans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav:hover {
+    color: #74ebd5;
+    text-shadow: 0 0 5px #9face6;
+}
+
+/* Buttons */
+.btn1,
+.btnmain {
+    background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn1:hover,
+.btnmain:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Hero Section */
+.address {
+    text-align: center;
+    color: white;
+    margin-top: 15vh;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.m1 {
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.m2 {
+    font-size: 1.5rem;
+    color: #ffd700;
+    font-style: italic;
+}
+
+/* Cards */
+.box {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.boxs {
+    background: white;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boxs:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Interactive Sections */
+.option .optio {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.optio:hover {
+    transform: scale(1.05);
+}
+
+.optio img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 1.5rem;
+}
+
+.footer .foot {
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.footer .foot:hover {
+    color: #74ebd5;
+    transform: scale(1.2);
+}

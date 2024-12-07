@@ -1,0 +1,297 @@
+body{
+    /* background-image: url(blue-wide-background-with-radial-blurred-gradient-in-center-free-vector.jpg);
+    background-size:contain; */
+    background: linear-gradient(#528AAE, #f4e7a8);
+    background-size:cover;
+    animation: bg 12s ease infinite;
+    
+    margin: 0px;
+    padding: 0px;
+    /* background-repeat: no-repeat; */
+    
+}
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding: 10px;
+}
+.nav1 {
+    padding: 25px;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+.btn1{
+    background-color: #ffffff;
+    color: #081a30;
+    height: 5.8vh;
+    width: 19vh;
+    margin-top: -10px;
+    /* margin-left: 10px; */
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.address{
+    margin: 17vh;
+    margin-left: 70vh;
+    
+}
+
+.main{
+    font-size: 50px;
+}
+
+.m1{
+    font-size: 25px;
+    margin-left: 18vh;
+}
+
+.m2{
+    margin-left: 7vh;
+    margin-top: -2vh;
+    color: azure;
+}
+
+.btn2{
+    display: flex;
+    justify-content: center;
+    margin-left: -45vh;
+    margin-top: -2vh;
+    color: azure;
+    gap: 15px;
+   
+    
+}
+
+.btnmain{
+    display: flex;
+    /* margin: 30px; */
+    margin-left:10px;
+    padding: 10px;
+    height:30px;
+    width:150px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight:bold;
+    text-align: center;
+    font-family: "Parkinsans", sans-serif;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    text-decoration: none;
+}
+/* .icon1{
+    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 26px;
+} */
+
+.box{
+    display: flex;
+    margin-left: 168px;
+    
+}
+.boxs{
+    height: 350px;
+    width: 290px;
+    border: 2px solid none;
+    justify-content: space-between;
+    margin-left: 10px;
+    border-radius: 28px;
+    background: linear-gradient(#2E5984, #73A5C6);
+    background-size:cover;
+    animation: bg 12s ease infinite;
+}
+
+.slider{
+    width: 100%;
+    height: 570px;
+    background-color:#1E3F66 ;
+    margin-top: -180px;
+}
+
+.option{
+    display: flex;
+    margin-left: 305px;
+    margin-top: -100px;
+}
+
+.optio{
+    height: 200px;
+    width: 200px;
+    border: 2px solid none;
+    justify-content: space-between;
+    margin-left: 30px;
+    border-radius: 10px;
+    background: rgb(230, 225, 225);
+    background-size:cover;
+    animation: bg 12s ease infinite;
+    justify-content: space-between;
+}
+
+.slide{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#528AAE, #f4e7a8);
+    background-size:cover;
+    margin-top: -100px;
+}
+
+.imgg{
+    height: 140px;
+    width: 140px;
+    margin-top: 10px;
+    margin-left: 31px;
+}
+
+.line{
+   margin-left: 55px;
+   font-family: "Parkinsans", sans-serif;
+   margin-top: 6px;
+   font-size: 20px;
+   font-weight: bold;
+}
+.line4{
+    margin-left: 40px;
+}
+.line2{
+    margin-left: 60px;
+}
+
+
+
+
+
+/* //apply krna h  */
+/* .arrow{
+    height:0px;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #ffd000;
+    width: 0px;
+    margin-left: 75px;
+    margin-top: -14px;
+} */
+
+.line5{
+    margin-left: -950px;
+    margin-top: -220px;
+    /* background-color: #1E3F66; */
+}
+.h2c{
+    color: aliceblue;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 35px;
+}
+
+.line6{
+    margin-left: 178px;
+    margin-top: 30px;
+    color: aliceblue;
+    font-family: "Parkinsans", sans-serif;
+    font-size: 15px;
+}
+
+
+.slider2{
+    width: 100%;
+    height: 490px;
+    background-color:#081a30 ;
+    margin-top: -20px;
+}
+
+.about{
+    color: rgb(155, 155, 155);
+    margin-top: -410px;
+    font-size: 20px;
+    margin-left: 130px;
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+/* span,p,h4{
+    color: white;
+    margin-left: 130px; 
+    font-family: "Chakra Petch", sans-serif;
+} */
+
+.aot{
+    width: 900px;
+}
+.neww{
+    color: rgb(222, 213, 213);
+    /* margin-top: -470px; */
+    font-size: 36px;
+    margin-left: 130px;
+    font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* p{
+   
+} */
+
+.btn3{
+    display: flex;
+    justify-content: center;
+    margin-left: -45vh;
+    margin-top: 5vh;
+    color: azure;
+    gap: 15px;
+   
+    
+}
+
+.circle{
+    height: 335px;
+    width: 335px;
+    border: 2px solid white;
+    margin-top: -380px;
+    margin-left: 1000px;
+    border-radius: 50%;
+}
+
+.para1{
+    color: white;
+    margin-left: 130px; 
+    font-family: "Chakra Petch", sans-serif;
+    margin-top: -20px;
+}
+.footer{
+    margin-left: 1070px;
+    display: flex;
+    font-size: 27px;
+    color: aliceblue;
+    
+}
+.foot{
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+
